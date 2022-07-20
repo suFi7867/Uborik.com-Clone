@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body>h2{
+            font-size: 30px;
+            text-align: center;
+            color: #0160b4;
+            margin-top: 100px;
+        }
+        #sidebar{
+           margin-top: -210px;
+            display: grid;
+            grid-template-rows: repeat(8,60px);
+            margin-left: 50px;
+            gap: 1px;
+         
+        }
+        #sidebar>div{
+          width: 400px;
+
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+        }
+        #sidebar>div:nth-child(1){
+            background-color: #0160b4;
+            color: white;
+           
+        }
+        #sidebar>div>h2{
+            margin-left: 20px;
+        }
+        #sidebar>div>p{
+            margin-left: 20px;
+            font-size: 20px;
+        }
+        #box{
+            margin-left: 550px;
+           
+        }
+        h1{
+            margin-left: 550px;
+        }
+        #para{
+            margin-left: 550px; 
+        }
+
+    </style>
+</head>
+<body>
+    <img src="" alt="">
+    <h2>My Account</h2>
+    <h1>Hello Welcome to the Uboric</h1>
+    <p id="para">From your account dashboard you can view your recent orders, manage your shipping and billing addresses, and edit your password and account details.</p>
+    <div id="box"></div>
+    <div id="sidebar">
+        <div >
+           
+            <h2>
+                Dashboard</h2>
+        </div>
+        <div>
+            <p>Orders</p>
+               
+           
+        </div>
+        <div>
+            <p>Download</p>
+        </div>
+        <div>
+            <p>Addresses</p>
+        </div>
+        <div><p>
+            Account Details
+        </p></div>
+        <div><p>Quotes</p></div>
+        <div><p>Submission</p></div>
+        <div><p>Log Out</p></div>
+        
+    </div>
+    
+
+   
+    
+</body>
+</html>
+<script>
+    let arr1=JSON.parse(localStorage.getItem("mydata"))
+    console.log(arr1)
+    show(arr1)
+    function show(arr1){
+        arr1.forEach(function(elem){
+            let box1=document.createElement("div");
+            let h=document.createElement("h3");
+            h.innerText=`Name-${elem.Name}`
+          let x=document.createElement("p");
+          x.innerText=`Email-${elem.emaiL}`
+            let p2=document.createElement("p");
+            p2.innerText=`Password-${elem.Password}`;
+            box1.append(h,x,p2);
+            document.querySelector("#box").append(box1)
+        })
+    }
+</script>

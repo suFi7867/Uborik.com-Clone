@@ -1,0 +1,83 @@
+body{
+    box-sizing: border-box;
+   
+        background-repeat: no-repeat;
+        background-size: cover; 
+   
+   }
+
+ 
+   h2{
+    text-align: center;
+   padding: 20px;
+   }
+h3{
+margin-left: 150px;
+margin-top: -20px;
+color: #86d5c2;
+font-size: 20px;
+}
+#box{
+    
+margin: auto;
+height: 550px;
+width: 500px;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+border-radius: 20px;
+margin-top: 70px;
+background-color: white;
+}
+#name{
+width: 400px;
+height: 40px;
+border-radius: 5px;
+margin-bottom: 20px;
+color: white;
+margin-left: 40px;
+border: 1px solid grey;
+}
+#email{
+width: 400px;
+height: 40px;
+border-radius: 5px;
+margin-bottom: 20px;
+margin-left: 40px;
+border: 1px solid grey;
+}
+#pass{
+width: 400px;
+height: 40px;
+border-radius: 5px;
+margin-left: 40px;
+border: 1px solid grey;
+}
+form>label{
+margin-left: 40px;
+padding-bottom: 10px;
+
+}
+form>p{
+text-align: center;
+color: grey;
+font-size: 10px;
+padding:0px 20px 0px 20px;
+} 
+#submit{
+margin-top: 20px;
+width: 400px;
+height: 40px;
+margin-left: 40px;
+border-radius: 5px;
+color: white;
+background-color: #bf9a49;
+border: 0px solid white;
+cursor: pointer;
+}  
+
+
+form>div{
+margin-top: -26px;
+margin-left: 270px;
+
+
+}
