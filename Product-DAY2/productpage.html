@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Head Phones</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./productpage.css" />
+  </head>
+
+  <body>
+    <main>
+      <h2>PRODUCTS</h2>
+
+      <section class="display-flex">
+        <aside class="options">
+          <div class="search-box">
+            <input type="text" placeholder="Search for products" id="search" />
+          </div>
+
+          <hr />
+
+          <div class="price-slider">
+            <hr id="connect-price" />
+            <div class="price-range display-flex">
+              <p>₹199</p>
+              <p>₹5,999</p>
+            </div>
+            <div id="the">
+              <div class="middle">
+                <div class="multi-range-slider">
+                  <input
+                    type="range"
+                    id="input-left"
+                    min="100"
+                    max="1500"
+                    value="250"
+                  />
+                  <input
+                    type="range"
+                    id="input-right"
+                    min="100"
+                    max="1500"
+                    value="1250"
+                  />
+
+                  <div class="slider">
+                    <div class="track"></div>
+                    <div class="range"></div>
+                    <div class="thumb left"></div>
+                    <div class="thumb right"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="product-color">
+            <div>
+              <h2>Product Colour</h2>
+              <p>+</p>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <p>AQUA/GREEN</p>
+            </div>
+
+            <div>
+              <input type="checkbox" />
+              <p>BLACK</p>
+            </div>
+
+            <div>
+              <input type="checkbox" />
+              <p>BEIGE</p>
+            </div>
+
+            <div>
+              <input type="checkbox" />
+              <p>BEIGE/BLACK</p>
+            </div>
+
+            <div>
+              <input type="checkbox" />
+              <p>BEIGE/BROWN</p>
+            </div>
+
+            <p id="show-more">Show more</p>
+          </div>
+        </aside>
+
+        <!-- Products Container -->
+        <aside id="product_cont" class="products-cont display-grid"></aside>
+      </section>
+    </main>
+    <script type="module" src="./productpage.js"></script>
+  </body>
+</html>

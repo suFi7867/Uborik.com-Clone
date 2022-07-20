@@ -1,0 +1,70 @@
+/* .options {
+  flex-basis: 30%;
+  padding: 3rem 0 0 1.5rem;
+}
+
+.search-box input,
+.brands-cont button,
+.product-size button,
+.product-clouser button {
+  font-size: 1.25rem;
+  padding: 1.25rem;
+  width: 95%;
+  border-radius: 0.125rem;
+  cursor: auto;
+}
+
+.brands-cont button,
+.product-size button,
+.product-clouser button {
+  font-size: 1.25rem;
+  padding: 0.8125rem;
+  margin: 1.25rem 0;
+  text-align: left;
+  color: var(--old-price-color);
+}
+
+button,
+input {
+  background: none;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid gray;
+}
+
+.brands,
+#brand-name,
+#size,
+#clouser {
+  display: none;
+}
+
+.product-color h2 {
+  color: black;
+  margin: 0;
+}
+
+.product-color > div,
+.person-cat > div,
+.footwear-cat > div {
+  display: flex;
+  align-items: center;
+  margin: 0.625rem 0;
+  color: rgb(80, 79, 79);
+}
+
+.product-color > div:first-child {
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+input[type="checkbox"] {
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: none;
+  margin-right: 1.25rem;
+}
+hr {
+  width: 95%;
+  margin: 0.625rem 0;
+} */
