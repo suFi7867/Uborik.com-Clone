@@ -1,0 +1,287 @@
+#land-main_container {
+    width: 100%;
+    /* border: 1px solid black; */
+    /* height: 500px; */
+}
+
+#land-section {
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+
+}
+
+#land-button {
+    padding: 15px;
+    font-weight: 900px;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: 0px solid white;
+    background-color: white;
+}
+
+#land-button:hover {
+    background-color: black;
+    color: white;
+}
+
+#land-wrapper {
+    width: 100%;
+    border: 1px solid green;
+    display: flex;
+    animation: slide 25s infinite;
+}
+
+#img-carousel {
+    width: 100%;
+    height: 508px;
+}
+
+#land-carousel {
+    width: 99%;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(0);
+    }
+
+    30% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-100%);
+    }
+
+    55% {
+        transform: translateX(-200%);
+    }
+
+    75% {
+        transform: translateX(-200%);
+    }
+
+    80% {
+        transform: translateX(-300%);
+    }
+
+    100% {
+        transform: translateX(-300%);
+    }
+}
+
+#land-kitchenware-img {
+    /* width: 60%; */
+    /* border: 1px solid black; */
+    top: 580px;
+    position: absolute;
+    left: 400px;
+    /* margin: auto; */
+
+}
+
+#land-kitchen {
+    width: 99%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 675px;
+    /* margin-bottom: 50px; */
+}
+
+#land-kitchen>div {
+    width: 475px;
+    /* border: 1px solid black; */
+}
+#land-kitchen>div>img{
+    width: 100%;
+}
+#last-img{
+    width: 100%;
+    height: 375.5px;
+}
+#land-support{
+    width: 100%;
+    /* position: absolute; */
+    top: 700px;
+    margin: auto;
+    margin-top: 1025px;
+    display: flex;
+    justify-content: center;
+}
+#land-support>img{
+    width: 100%;
+}
+#land-electronics{
+    width: 100%;
+    margin-top: 18px;
+    /* border: 1px solid black; */
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+}
+#land-headphone{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+#land-cloths{
+    width: 100%;
+    margin-top: 18px;
+    /* border: 1px solid black; */
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+}
+#land-essentails{
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+#land-essentails>div{
+width: 18%;
+}
+#land-essentails>div>img{
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 2%), 0 6px 20px 0 rgb(30 81 108) !important
+}
+#land-spices-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#land-spices{
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+#land-spices>div{
+width: 18%;
+}
+#land-spices>div>img{
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 2%), 0 6px 20px 0 rgb(30 81 108) !important
+}
+#land-foot-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#land-fashion{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#land-fashion>img{
+    width: 98%;
+}
+/*  */
+#land-footwear{
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+#land-footwear>div{
+width: 18%;
+}
+#land-footwear>div>img{
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 2%), 0 6px 20px 0 rgb(30 81 108) !important
+}
+/*  */
+#land-text{
+    width: 71%;
+    margin: auto;
+    /* border: 1px solid black; */
+    /* text-align: center; */
+    margin-top: 50px;
+    background-color: #faf8f8;
+}
+#h1{
+    text-align: center;
+    font-family: sans-serif;
+   font-weight: 700px;
+   line-height: 30px;
+   color:
+   #24546d ;
+   
+}
+#p{
+    padding-left: 10px;
+    line-height: 30px;
+    font-weight: 700px;
+    font-size: 16px;
+    color: rgb(44, 44, 44);
+}
+#h3{
+    text-align: center;
+    font-family: sans-serif;
+   font-weight: 700px;
+   font-size: 30px;
+   line-height: 30px;
+   color: 
+   #24546d;
+}
+/*  */
+#land-last{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#land-last>img{
+    width: 75%;
+}
+#land-fashion>img:hover{
+    transition: 1s;
+    transform: scale(1.03);
+}
+#land-kitchen>div>img:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+#land-electronics>div>img:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+#land-headphone>img:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+#land-cloths>div>img:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+#land-essentails>div>img:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+#land-spices>div>img:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+#land-footwear>div>img:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
+}
