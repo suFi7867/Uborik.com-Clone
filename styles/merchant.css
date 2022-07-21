@@ -1,0 +1,225 @@
+#maindiv{
+    width: 906%;
+    height: 400px;
+    background-image:url('https://www.uboric.com/wp-content/uploads/2021/08/bannershose.jpg');
+    animation:slider 9s infinite linear;
+}
+@keyframes slider{
+    0%{    background-image:url('https://www.uboric.com/wp-content/uploads/2021/08/bannershose.jpg');    }
+    25%{background-image: url('https://www.uboric.com/wp-content/uploads/2021/08/electric-appliances.jpg');}
+    50%{background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img22/CEPC/Primeday/GW/Heros/Leadup/V1/1_Tallhero_3000x1200._CB631569847_.jpg');}
+    75%{background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img22/TVs/yashash/ART/PrimeDay/D50354751_IN_HETV_PD_GW_LATV_PC_Hero_3000x1200._CB631618883_.jpg');}
+}
+
+#Merchantcontainer2img1{
+       
+    padding-left: 500px;   
+    position: relative;
+    margin:10px 10px 10px 10px;
+}
+#Merchantcontainer2headline{
+    margin:10px 10px 10px 10px;
+
+}
+#Merchantcontainer2img2{
+    margin:10px 10px 10px 10px;
+
+}
+
+#Merchantcontainer2{
+    display: flex;
+    position: relative;
+}
+#categery{
+    display: flex;
+    box-sizing: border-box;
+    
+}
+#box1{
+    width: 470px;
+    height: 300px;
+    margin: 15px 15px 15px 15px;
+    padding: auto;
+    cursor: pointer;
+    gap: 20px;
+    
+}
+#box-img{
+    width: 470px;
+    height: 300px;
+    padding: auto;
+    gap: 20px;
+   
+}
+#categery1{
+    display: flex;
+    box-sizing: border-box;
+
+}
+#box2{
+    height: 350px;
+    width: 270px;
+    margin: 15px 15px 15px 15px;
+    padding: auto;
+    gap: 10px;
+    
+    
+}
+#box-img1{
+    height: 350px;
+    width: 270px;
+   
+}
+#categery2{
+    margin-top: 50px;
+width:600%;
+height: 219px;
+margin-left: 80px;
+}
+
+#Merchantcontainer2img3{
+    padding-left: 500px;   
+    position: relative;
+    margin:10px 10px 40px 10px;
+}
+#Merchantcontainer2headline1{
+    margin:10px 10px 10px 10px;
+
+}
+#Merchantcontainer2img4{
+    margin:10px 10px 10px 10px;
+
+}
+#Merchantcontainer3{
+    margin-top: 100px;
+    display: flex;
+    position: relative;
+}
+#categery3{
+    display: flex;
+    box-sizing: border-box;
+}
+#box4{
+    width: 470px;
+    height: 300px;
+    margin: 15px 15px 15px 15px;
+    padding: auto;
+    cursor: pointer;
+}
+#box-img3{
+    width: 470px;
+    height: 300px;
+}
+#categery4{
+    display: flex;
+    box-sizing: border-box;
+}
+#box5{
+    height: 350px;
+    width: 270px;
+    margin: 15px 15px 15px 15px;
+    padding: auto;
+    cursor: pointer;
+    margin-top: 50px;
+}
+#box-img4{
+    height: 350px;
+    width: 270px;
+}
+
+#Merchantcontainer2img5{
+       
+    padding-left: 500px;   
+    position: relative;
+    margin:10px 10px 10px 10px;
+}
+#Merchantcontainer2headline2{
+    margin:10px 10px 10px 10px;
+
+}
+#Merchantcontainer2img6{
+    margin:10px 10px 10px 10px;
+
+}
+
+#Merchantcontainer4{
+    margin-top: 30px;
+    display: flex;
+    position: relative;
+}
+#Merchantcontainer2img7{
+       
+    padding-left: 500px;   
+    position: relative;
+    margin:10px 10px 10px 10px;
+}
+#Merchantcontainer2headline3{
+    margin:10px 10px 10px 10px;
+
+}
+#Merchantcontainer2img8{
+    margin:10px 10px 10px 10px;
+
+}
+
+#Merchantcontainer5{
+    margin-top: 30px;
+    display: flex;
+    position: relative;
+}
+#categery5{
+    display: flex;
+    box-sizing: border-box;
+}
+#box6{
+    width: 470px;
+    height: 300px;
+    margin: 15px 15px 15px 15px;
+    padding: auto;
+    cursor: pointer;
+}
+#box-img5{
+    width: 470px;
+    height: 300px;
+}
+#categery7{
+width:600%;
+height: 219px;
+margin-left: 80px;
+}
+#categery8{
+    margin-top: 100px;
+    display: flex;
+    box-sizing: border-box;
+}
+#box8{
+    width: 600%;
+    margin: 15px 15px 15px 15px;
+    padding: auto;
+    cursor: pointer;
+}
+#box-img7{
+    width: 100%;
+}
+#categery9{
+    display: flex;
+    box-sizing: border-box;
+}
+#box9{
+    height: 350px;
+    width: 270px;
+    margin: 15px 15px 15px 15px;
+    padding: auto;
+    cursor: pointer;
+}
+#box-img8{
+    height: 350px;
+    width: 270px;
+}
+
+#categery10{
+    text-align: center;
+}
+
+
+
