@@ -478,3 +478,14 @@ width: 18%;
 #right5:hover #drop-electric{
     display:block;
 }
+
+
+.land-atr{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+  }
+
+  .land-atr:hover{
+    color: white;
+  }
