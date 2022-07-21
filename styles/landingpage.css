@@ -1,0 +1,480 @@
+#land-main_container {
+    width: 100%;
+    /* border: 1px solid black; */
+    /* height: 500px; */
+}
+
+#land-section {
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+
+}
+
+#land-button {
+    padding: 15px;
+    font-weight: 900px;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: 0px solid white;
+    background-color: white;
+}
+
+#land-button:hover {
+    background-color: black;
+    color: white;
+}
+
+#land-wrapper {
+    width: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    animation: slide 25s infinite;
+}
+
+#img-carousel {
+    width: 100%;
+    height: 508px;
+}
+
+#land-carousel {
+    width: 99%;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(0);
+    }
+
+    30% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-100%);
+    }
+
+    55% {
+        transform: translateX(-200%);
+    }
+
+    75% {
+        transform: translateX(-200%);
+    }
+
+    80% {
+        transform: translateX(-300%);
+    }
+
+    100% {
+        transform: translateX(-300%);
+    }
+}
+
+#land-kitchenware-img {
+    /* width: 60%; */
+    /* border: 1px solid black; */
+    top: 750px;
+    position: absolute;
+    left: 400px;
+    /* margin: auto; */
+
+}
+
+#land-kitchen {
+    width: 99%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 850px;
+    /* margin-bottom: 50px; */
+}
+
+#land-kitchen>div {
+    width: 475px;
+    /* border: 1px solid black; */
+}
+#land-kitchen>div>img{
+    width: 100%;
+}
+#last-img{
+    width: 100%;
+    height: 375.5px;
+}
+#land-support{
+    width: 100%;
+    /* position: absolute; */
+    top: 700px;
+    margin: auto;
+    margin-top: 1025px;
+    display: flex;
+    justify-content: center;
+}
+#land-support>img{
+    width: 100%;
+}
+#land-electronics{
+    width: 100%;
+    margin-top: 18px;
+    /* border: 1px solid black; */
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+}
+#land-headphone{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+#land-cloths{
+    width: 100%;
+    margin-top: 18px;
+    /* border: 1px solid black; */
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+}
+#land-essentails{
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+#land-essentails>div{
+width: 18%;
+}
+#land-essentails>div>img{
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 2%), 0 6px 20px 0 rgb(30 81 108) !important
+}
+#land-spices-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#land-spices{
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+#land-spices>div{
+width: 18%;
+}
+#land-spices>div>img{
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 2%), 0 6px 20px 0 rgb(30 81 108) !important
+}
+#land-foot-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#land-fashion{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#land-fashion>img{
+    width: 98%;
+}
+/*  */
+#land-footwear{
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+#land-footwear>div{
+width: 18%;
+}
+#land-footwear>div>img{
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 2%), 0 6px 20px 0 rgb(30 81 108) !important
+}
+/*  */
+#land-text{
+    width: 71%;
+    margin: auto;
+    /* border: 1px solid black; */
+    /* text-align: center; */
+    margin-top: 50px;
+    background-color: #faf8f8;
+}
+#h1{
+    text-align: center;
+    font-family: sans-serif;
+   font-weight: 700px;
+   line-height: 30px;
+   color:
+   #24546d ;
+   
+}
+#p{
+    padding-left: 10px;
+    line-height: 30px;
+    font-weight: 700px;
+    font-size: 16px;
+    color: rgb(44, 44, 44);
+}
+#h3{
+    text-align: center;
+    font-family: sans-serif;
+   font-weight: 700px;
+   font-size: 30px;
+   line-height: 30px;
+   color: 
+   #24546d;
+}
+/*  */
+#land-last{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#land-last>img{
+    width: 75%;
+}
+#land-fashion>img:hover{
+    transition: 1s;
+    transform: scale(1.03);
+}
+#land-kitchen>div>img:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+#land-electronics>div>img:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+#land-headphone>img:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+#land-cloths>div>img:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+#land-essentails>div>img:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+#land-spices>div>img:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+#land-footwear>div>img:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+/* dropdown */
+
+
+#right{
+    position: relative;
+}
+#dropdown-container{
+    position: absolute;
+    width: 1100px;
+    height: 480px;
+    /* border: 1px solid black; */
+    background-color: white;
+    display: flex;
+    display: none;
+    z-index: 1;
+    left: -250px;
+    /* display: flex; */
+}
+#right:hover #dropdown-container{
+    display: block;
+}
+/*  */
+
+.sub-container{
+    border-right: 1px solid rgb(207, 206, 206);
+    border-bottom: 1px solid rgb(207, 206, 206);
+    width: 250px;
+    height: 58px;
+}
+#a{
+    text-decoration: none;
+    display: block;
+    padding-top: 18px;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-left: 2px;
+    color: 
+    #888585 ;
+
+}
+#carat{
+    position: absolute;
+    font-size: 17.5px;
+    top: 23px;
+    left: 235px;
+    color: 
+    #888585 ;
+
+}
+#carat1{
+    position: absolute;
+    font-size: 17.5px;
+    top: 18px;
+    left: 235px;
+    color: 
+    #888585 ;
+
+}
+#carat2{
+    position: absolute;
+    font-size: 17.5px;
+    top: 18px;
+    left: 235px;
+    color: 
+    #888585 ;
+
+}
+#carat3{
+    position: absolute;
+    font-size: 17.5px;
+    top: 18px;
+    left: 235px;
+    color: 
+    #888585 ;
+
+}
+#carat4{
+    position: absolute;
+    font-size: 17.5px;
+    top: 18px;
+    left: 235px;
+    color: 
+    #888585 ;
+
+}
+#carat5{
+    position: absolute;
+    font-size: 17.5px;
+    top: 18px;
+    left: 235px;
+    color: 
+    #888585 ;
+
+}
+/*  */
+
+#sub-right{
+    /* border: 1px solid green; */
+    width: 840px;
+    height: 480px;
+    position: absolute;
+    top: 0px;
+    left: 253px;
+    /* background-color: green; */
+}
+#drop-img{
+    width: 100%;
+}
+/*  */
+#right1{
+    position: relative;
+}
+#drop-accessories{
+    position: absolute;
+    width: 840px;
+    height: 480px;
+    display: none;
+    z-index: 1;
+    left: 253px;
+    top: -118px;
+   
+}
+#right1:hover #drop-accessories{
+    display:block;
+}
+/*  */
+#right2{
+    position: relative;
+}
+#drop-kitchen{
+    position: absolute;
+    width: 840px;
+    height: 480px;
+    display: none;
+    z-index: 1;
+    left: 253px;
+    top: -44px;
+   
+}
+#right2:hover #drop-kitchen{
+    display:block;
+}
+/*  */
+#right3{
+    position: relative;
+}
+#drop-health{
+    position: absolute;
+    width: 840px;
+    height: 480px;
+    display: none;
+    z-index: 1;
+    left: 253px;
+    top: -180px;
+   
+}
+#right3:hover #drop-health{
+    display:block;
+}
+/*  */
+#right4{
+    position: relative;
+}
+#drop-electronic{
+    position: absolute;
+    width: 840px;
+    height: 480px;
+    display: none;
+    z-index: 1;
+    left: 253px;
+    top: -242px;
+   
+}
+#right4:hover #drop-electronic{
+    display:block;
+}
+/*  */
+#right5{
+    position: relative;
+}
+#drop-electric{
+    position: absolute;
+    width: 840px;
+    height: 480px;
+    display: none;
+    z-index: 1;
+    left: 253px;
+    top: -290px;
+   
+}
+#right5:hover #drop-electric{
+    display:block;
+}
