@@ -1,0 +1,93 @@
+  
+    #content{
+    
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    
+     #form {
+        
+       margin: 0 auto;
+ 
+       width: 800px;  
+     
+       /* border:1px solid red; */
+       text-align: left;
+
+     }
+     
+     #form label{
+         font-size: 15px; 
+     }
+     
+     
+     *{
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+     
+     #form h3{
+
+         margin-bottom: 30px;
+         margin-top: 15px;
+         font-size: 25px;
+     }
+     
+     
+     #form input[type="name"]{
+         border: 1px solid #ccc;
+         width: 100%;
+         padding: 12px;
+         margin-top: 6px;
+       
+     
+          font-size: 20px; 
+         /* // importan PROPERTY */
+         box-sizing: border-box; 
+         resize: vertical;
+         margin-bottom: 15px;
+         
+       }
+       
+     
+       #form button{
+         padding: 12px 20px;
+         border: none;
+        
+         cursor: pointer;
+         margin-top: 15px;
+         width: 20%;
+         font-size: 20px;
+         background-color:  #d1c36a;
+         color: white;
+         text-align: center;         
+       }
+       
+       #form button:hover{
+         background-color:  #837416;
+       }
+     
+       #form  br+p{
+        text-align: center;
+        font-size:x-small ;
+        color: rgb(133, 128, 128);
+       }
+     
+       #form button+p{
+        text-align: center;
+        font-size:large ;
+        color: rgb(65, 65, 65);
+       }
+
+       #form a{
+
+           color: rgb(38, 87, 247);
+           font-weight: bolder;
+           text-decoration: none;
+           
+       }
+
+
+       #gif{
+        height: 700px;
+       }
