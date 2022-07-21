@@ -18,7 +18,7 @@ color: #86d5c2;
 font-size: 20px;
 }
 #box{
-    
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.Ix6XjMbuCvoq3EQNgJoyEQHaFj&pid=Api&P=0);
 margin: auto;
 height: 550px;
 width: 500px;
@@ -79,6 +79,5 @@ cursor: pointer;
 form>div{
 margin-top: -26px;
 margin-left: 270px;
-
 
 }

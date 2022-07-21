@@ -23,7 +23,7 @@ if(checkEmails(bag.emaiL)===true){
     alert("Account already exist")
    
 }
-
+form2.reset()
 }
 function checkEmails(emaiL){
  let x=arr.filter(function
