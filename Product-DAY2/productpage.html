@@ -19,10 +19,142 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="./productpage.css" />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/common.css" />
+    <link rel="stylesheet" href="./styles/landingpage.css" />
   </head>
 
   <body>
+    <div id="top_header"></div>
+
+    <!-- <div id="land-section">
+        <button id="land-button">
+          <a href="landingpage.html">Home</a>
+        </button>
+        <div id="right">
+          <button
+            id="land-button"
+            style="background-color: black; color: white"
+          >
+            <a
+              style="text-decoration: none; color: white"
+              href="./Product-DAY2/productpage.html"
+              >Categories</a
+            >
+          </button>
+          <div id="dropdown-container">
+            <div id="left">
+              <div class="sub-container">
+                <i class="fa fa-caret-right" id="carat"></i>
+                <a href="" id="a">Fashion</a>
+              </div>
+
+              <div id="right2">
+                <div class="sub-container">
+                  <i class="fa fa-caret-right" id="carat1"></i>
+                  <a href="" id="a">Kitchen</a>
+                </div>
+                <div id="drop-kitchen">
+                  <img
+                    src="https://i.postimg.cc/XqQ7dmdT/Screenshot-475.png"
+                    alt=""
+                    style="width: 100%"
+                  />
+                </div>
+              </div>
+
+              <div id="right1">
+                <div class="sub-container">
+                  <i class="fa fa-caret-right" id="carat2"></i>
+                  <a href="" id="a">Accessories</a>
+                </div>
+                <div id="drop-accessories">
+                  <img
+                    src="https://i.postimg.cc/j56z0qYP/Screenshot-476.png"
+                    alt=""
+                    style="width: 100%"
+                  />
+                </div>
+              </div>
+
+              <div id="right3">
+                <div class="sub-container">
+                  <i class="fa fa-caret-right" id="carat3"></i>
+                  <a href="" id="a">Health & Personal Care</a>
+                </div>
+                <div id="drop-health">
+                  <img
+                    src="https://i.postimg.cc/sxmHydZH/Screenshot-478.png"
+                    alt=""
+                    style="width: 100%"
+                  />
+                </div>
+              </div>
+
+              <div id="right4">
+                <div class="sub-container">
+                  <i class="fa fa-caret-right" id="carat4"></i>
+                  <a href="" id="a">Electronics</a>
+                </div>
+                <div id="drop-electronic">
+                  <img
+                    src="https://i.postimg.cc/gJPgZkVB/Screenshot-480.png"
+                    alt=""
+                    style="width: 100%"
+                  />
+                </div>
+              </div>
+
+              <div id="right5">
+                <div class="sub-container">
+                  <i class="fa fa-caret-right" id="carat5"></i>
+                  <a href="" id="a">Electric Appliances</a>
+                </div>
+                <div id="drop-electric">
+                  <img
+                    src="https://i.postimg.cc/QxnSqqg7/Screenshot-481.png"
+                    alt=""
+                    style="width: 100%"
+                  />
+                </div>
+              </div>
+
+              <div class="sub-container">
+                <a href="" id="a">Paintings</a>
+              </div>
+              <div class="sub-container">
+                <a href="" id="a">Anti puncture Liquid</a>
+              </div>
+            </div>
+            <div id="sub-right">
+              <img
+                src="https://i.postimg.cc/C16ymVxg/Screenshot-474.png"
+                alt=""
+                id="drop-img"
+              />
+            </div>
+          </div>
+        </div>
+        <button id="land-button">
+          <a class="land-atr" href="customer.html"> Customer/Guest Login </a>
+        </button>
+        <button id="land-button">
+          <a class="land-atr" href="merchant.html"> Merchant/Bulk Order </a>
+        </button>
+        <button id="land-button">
+          <a class="land-atr" href="seller.html">Become A Seller</a>
+        </button>
+        <button id="land-button">
+          <a class="land-atr" href="login.html"> Login/Signup</a>
+        </button>
+      </div> -->
+
     <main>
+      <div id="Header"></div>
       <h2>PRODUCTS</h2>
 
       <section class="display-flex">
@@ -34,11 +166,18 @@
           <hr />
 
           <div class="price-slider">
-            <hr id="connect-price" />
-            <div class="price-range display-flex">
+            <!-- <div class="price-range display-flex">
               <p>₹199</p>
               <p>₹5,999</p>
+            </div> -->
+            <div>
+              <select id="select_Sort">
+                <option value="htl">High To Low</option>
+                <option value="lth">Low to high</option>
+              </select>
             </div>
+            <br />
+            <br />
             <div id="the">
               <div class="middle">
                 <div class="multi-range-slider">
@@ -108,6 +247,8 @@
         <aside id="product_cont" class="products-cont display-grid"></aside>
       </section>
     </main>
-    <script type="module" src="./productpage.js"></script>
+
+    <footer id="footer"></footer>
   </body>
 </html>
+<script src="./productpage.js" type="module"></script>

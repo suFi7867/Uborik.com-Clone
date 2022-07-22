@@ -3,6 +3,7 @@
 @import "./aside-options.css";
 @import "./../../home/topbar.css";
 
+
 * {
   box-sizing: border-box;
 }
@@ -24,4 +25,130 @@ main {
   width: 180px;
   margin: auto;
   /* border: 2px solid rgb(252, 89, 89); */
+}
+
+#navbar {
+  display: flex;
+
+  width: fit-content;
+  height: fit-content;
+
+  /* border: 1px solid green; */
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  margin: auto;
+
+  max-width: 100%;
+  width: 100%;
+  z-index: 999999;
+  padding: 0px 20px;
+}
+
+.header__search {
+  width: 30%;
+}
+
+.header__search form {
+  border: 1px solid black;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header__search input {
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  border-radius: 0;
+  border: none;
+  height: 100%;
+}
+
+.header__search button {
+  border: none;
+  border-radius: 0;
+}
+
+#logo {
+  width: 30%;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+#navbar RHS {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#RHS {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 30%;
+  height: fit-content;
+  /* border: 1px solid red; */
+  margin-right: 50px;
+  gap: 10px;
+}
+
+#cart_count {
+  font-size: 30px;
+}
+
+#top_box {
+  line-height: 2em;
+  padding: 5px 0px 6px;
+  background: #1e516c;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: 15px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+#footer_up {
+  background-color: #837416;
+  text-align: center;
+  color: white;
+}
+
+#footer_up img {
+  width: 90%;
+}
+
+#footer_down {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#footer_down > div {
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+}
+
+#footer_down_down {
+  display: flex;
+  /* border: 1px solid white; */
+  justify-content: space-between;
+  color: white;
+}
+
+#footer_down_down > a {
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#footer_down_down > a:hover {
+  color: #bdab34;
 }

@@ -1,4 +1,4 @@
-/* .options {
+.options {
   flex-basis: 30%;
   padding: 3rem 0 0 1.5rem;
 }
@@ -67,4 +67,4 @@ input[type="checkbox"] {
 hr {
   width: 95%;
   margin: 0.625rem 0;
-} */
+}
