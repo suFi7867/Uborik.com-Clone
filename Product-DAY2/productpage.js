@@ -1,7 +1,9 @@
-import { header, footer } from "../../safe-table-3122/Components/common.js";
 
-document.querySelector("#top_header").innerHTML = header();
-document.querySelector("#footer").innerHTML = footer();
+import {header,footer} from "../Components/common.js";
+
+document.querySelector("#top_header").innerHTML = header()
+document.querySelector("#footer").innerHTML = footer()
+
 import data from "./data.js";
 
 let sort = document.getElementById("select_Sort");
@@ -80,7 +82,7 @@ function Append(data) {
   });
 }
 
-let arr = localStorage.getItem(JSON.stringify("carttt")) || [];
+let arr = JSON.parse(localStorage.getItem("carttt")) || [];
 
 function addData(el) {
   let filtered = arr.filter((e) => {
