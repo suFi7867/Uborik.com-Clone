@@ -200,6 +200,26 @@
      }
 
 
+     #Product_e{
+
+      color: black;
+      background-color:  #d6c14d;
+      border: none ;
+      cursor: pointer;
+      padding: 10px 20px;
+      width: 200px;
+     
+    
+     }
+     #Product_e:hover{
+      color: white;
+      background-color:  rgb(31, 109, 145);
+     
+     }
+
+
+     
+
 
 
      
@@ -407,6 +427,41 @@
 
     let cart_products = document.querySelector("#product_cart")
     cart_products.innerHTML = ""
+
+    if(arr == ""){
+
+      let cart_products = document.querySelector("#product_cart")
+
+      let div = document.createElement("div")
+      div.style.padding = "0px 150px"
+      div.style.alignContent = "center"
+     
+     
+      let img = document.createElement("img")
+        img.src = "https://cdn.dribbble.com/users/887568/screenshots/3172047/ufo.gif"
+        
+
+      let ttt =  document.createElement("h1") 
+      ttt.innerText = "Cart Is Empty"
+      ttt.style.color = "rgb(31, 109, 145)"
+ 
+      let Product = document.createElement("button") 
+      Product.setAttribute("id","Product_e")
+      Product.innerText = "Go To Products"
+      Product.addEventListener("click", function(){
+        
+        window.location.href = "./Product-DAY2/productpage.html"
+
+      })
+
+       div.append(ttt,Product)
+        cart_products.append(img,div)
+
+
+
+    }
+
+    console.log(cart_products)
 
     arr.map((el,index) =>{
 
