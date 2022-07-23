@@ -41,7 +41,7 @@ var data = [
   {
     company_name: "QOR9",
     tittle: "TRUEBASS Wireless Earbuds Bluetooth",
-    price: "1,599.00",
+    price: "1599.00",
     description:
       "QOR9 TRUEBASS Wireless Earbuds Bluetooth 5.0 Headphones Noise Cancelling Mini Charging Case IPX5 Waterproof in-Ear Earbuds Built-in Mic Stereo Sound with Deep Bass for iOS/Android/Windows Earbuds (Black)",
     src: "https://www.uboric.com/wp-content/uploads/2021/02/51L5yIwOFcL._SL1080_.jpg",
@@ -49,7 +49,7 @@ var data = [
   {
     company_name: "QOR9",
     tittle: "TRUEBASS Wireless Earbuds Bluetooth 5.0",
-    price: "1,549.00",
+    price: "1549.00",
     description:
       "QOR9 TRUEBASS Wireless Earbuds Bluetooth 5.0 Headphones Noise Cancelling Mini Charging Case IPX5 Waterproof in-Ear Earbuds Built-in Mic Stereo Sound with Deep Bass for iOS/Android/Windows Earbuds (Black)",
     src: "https://www.uboric.com/wp-content/uploads/2021/02/51L5yIwOFcL._SL1080_.jpg",
@@ -81,7 +81,7 @@ var data = [
   {
     company_name: "QOR9",
     tittle: "TRUEBASS Wireless Earbuds Bluetooth 5.0",
-    price: "1,549.00",
+    price: "1549.00",
     description:
       "QOR9 TRUEBASS Wireless Earbuds Bluetooth 5.0 Headphones Noise Cancelling Mini Charging Case IPX5 Waterproof in-Ear Earbuds Built-in Mic Stereo Sound with Deep Bass for iOS/Android/Windows Earbuds (Black)",
     src: "https://www.uboric.com/wp-content/uploads/2021/02/51L5yIwOFcL._SL1080_.jpg",
@@ -97,7 +97,7 @@ var data = [
   {
     company_name: "QOR9",
     tittle: "TRUEBASS Wireless Earbuds Bluetooth",
-    price: "1,599.00",
+    price: "1599.00",
     description:
       "QOR9 TRUEBASS Wireless Earbuds Bluetooth 5.0 Headphones Noise Cancelling Mini Charging Case IPX5 Waterproof in-Ear Earbuds Built-in Mic Stereo Sound with Deep Bass for iOS/Android/Windows Earbuds (Black)",
     src: "https://www.uboric.com/wp-content/uploads/2021/02/51L5yIwOFcL._SL1080_.jpg",

@@ -21,7 +21,7 @@ font-size: 20px;
   
 margin: auto;
 height: 550px;
-width: 500px;
+width: 40%;
 /* box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px; */
 /* border-radius: 20px; */
 margin-top: 70px;
@@ -81,3 +81,7 @@ margin-top: -26px;
 margin-left: 270px;
 
 }
+
+#footer{
+    margin-top: 50px;
+   }

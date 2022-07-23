@@ -36,3 +36,8 @@ if(x.length>0){
      return true
 }
 }
+
+
+let arrr = JSON.parse(localStorage.getItem("carttt")) 
+
+document.querySelector("#cart_count").innerText = arrr.length

@@ -9,6 +9,10 @@ document.querySelector("#footer").innerHTML = footer()
 
 
 
+let arr = JSON.parse(localStorage.getItem("carttt")) 
 
+document.querySelector("#cart_count").innerText = arr.length
+
+document.querySelector("#cart_qty").innerText =`( ${arr.length} )` 
 
 

@@ -38,17 +38,19 @@ function Append(data) {
 
   data.forEach((el) => {
     let mDiv = document.createElement("div");
-    mDiv.style.padding = "10px";
+    mDiv.setAttribute("id","product_PRO")
+ 
+    
     // mDiv.style.border = "1px solid red";
 
     let iDiv = document.createElement("div");
-    iDiv.style.overflow = "flexbox";
+    iDiv.style.overflow = "flex";
 
     let img = document.createElement("img");
     img.setAttribute("src", el.src);
-    img.style.height = "150px";
-    img.style.width = "150px";
-    img.style.marginLeft = "15px";
+    img.style.height = "200px";
+    img.style.width = "100%";
+ 
     iDiv.append(img);
 
     let p = document.createElement("p");
@@ -64,7 +66,7 @@ function Append(data) {
     cutprice.innerText = "₹ " + el.price;
 
     let cart = document.createElement("div");
-    cart.style.background = "black";
+    cart.style.background = "#1e516c";
     cart.style.color = "white";
     cart.style.padding = "10px";
     cart.style.display = "flex";
@@ -95,5 +97,14 @@ function addData(el) {
     arr.push(el);
     localStorage.setItem("carttt", JSON.stringify(arr));
     alert("Product Added Successfully");
+    window.location.reload()
   }
 }
+
+
+
+
+
+let arrr = JSON.parse(localStorage.getItem("carttt")) 
+
+document.querySelector("#cart_count").innerText = arrr.length

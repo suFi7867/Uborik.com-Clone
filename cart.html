@@ -26,10 +26,20 @@
          text-align: center;
      }
 
+     #content > h1{
+   
+       color: rgb(31, 109, 145);
+       margin-bottom: -10px;
+     }
+
      #product_container{
-        width: 100%;
-        border: 1px solid;
+        width: 70%;
+        border: 1px solid none;
         display: flex;
+        margin: auto;
+        margin-bottom: 50px ;
+        justify-content: space-around;
+       
      }
 
      #product_cart{
@@ -40,7 +50,8 @@
         width: 50%;
         justify-content: space-around;
         border-radius: 10px;    
-        gap: 20px;    
+        gap: 15px;  
+       
      }
 
 
@@ -49,15 +60,26 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: rgba(170, 172, 162, 0.205);
+        background-color: #ebe7cf8a;
+        border-radius: 20px 0px;
+        height: fit-content;
+   
+     }
 
+
+     #product_cart>div:hover{
+        border: 1px solid  #8b8b8b;;
+       
      }
 
      #product_cart>div>img{
       
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
+        border-radius: 20px 0px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
+        margin-right: 20px;
      }
 
      #product_cart>div>h2{
@@ -70,13 +92,74 @@
 
 
      #checkout{
-        border: 1px solid;
-        width: 50%;
+        border: 1px solid none;
+        width: 20%;
+        padding: 20px;
+        border-radius: 20px 0px;
+        background-color: #ebe7cf8a;
+     
+     }
+
+     #checkout > div{
+      display: flex;
+      gap: 30px;
+      justify-content: space-between;
+    
+     }
+
+     #checkout > h2{
+
+       color:rgb(18, 95, 131)
+
+     }
+
+     #checkout  input{
+
+       padding: 10px  20px;
+       border: none;     
+       width: 80%;
+
+     }
+
+     #checkout > hr  {
+
+      margin-bottom: 10px;
+      }
+
+
+     #checkout > hr + h2 {
+
+     margin-bottom: 10px;
+     }
+
+     #input_cart{
+       margin-bottom: 20px;
+
+     }
+
+     #Place_order + img {
+      width: 100%;
+     }
+
+
+     #input_cart button{
+      color: black;
+      background-color:  #d6c14d;
+      border: none ;
+      cursor: pointer;
+      padding: 10px 20px;
+    
+     }
+     #input_cart button:hover{
+      color: white;
+      background-color:  rgb(31, 109, 145);
+     
      }
 
      .delet_button{
 
-        padding: 5px 10px;
+        margin: 5px 20px;
+        padding: 5px 20px;
         background-color: black;
         color: white;
         margin-right: 30px;
@@ -84,6 +167,36 @@
         
         
         
+     }
+
+     #title_cart{
+      width: 300px;
+     }
+
+     .amount_data h2{
+      font-weight: 500;
+      margin: 5px 0px;
+     }
+
+
+
+     #Place_order{
+      color: black;
+      background-color:  #d6c14d;
+      border: none ;
+      cursor: pointer;
+      padding: 10px 20px;
+      width: 100%;
+    
+     }
+     #Place_order:hover{
+      color: white;
+      background-color:  rgb(31, 109, 145);
+     
+     }
+
+     body{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      }
 
 
@@ -224,8 +337,14 @@
       </button>
     </div>
 
+   
+    <div id="content">
+      <h1>Cart</h1>
+      <p>Home > Cart</p>
+     </div>
 
-       
+   
+     
 <div id="product_container">
 
     
@@ -238,8 +357,31 @@
     
     
     <div id="checkout">
-        
+
+      <h2>Cart Details</h2>
+      <div id="input_cart" ><input type="text" placeholder="Have a Coupan ?"> <button id="Apply_coupan">Apply</button></div>
+
+      <hr>
+
+     <h2>PRICE DETAILS</h2>
+     <div class="amount_data"> <h2>Cart Items</h2> <h2 id="cart_qty">0</h2></div>
+
+     <div class="amount_data"> <h2>Total MRP</h2>  <h2 id="total_mrp">0</h2></div> 
+     <div class="amount_data"> <h2>Discount</h2>  <h2 id="discount">0</h2></div> 
+
+   
+     <hr>
+
+     <div> <h2>Total Amount</h2>  <h2 id="total_amount">0</h2></div> 
+
+     <button id="Place_order">Place Order</button>
+
+     <img src="https://img.pikbest.com/png-images/20191028/e-commerce-shopping-festival-shopping-gif_2515306.png!bw700" alt="">
+
+
     </div>
+
+    
     
 </div>
         
@@ -268,6 +410,8 @@
 
     arr.map((el,index) =>{
 
+        
+       
         let div = document.createElement("div")
         div.setAttribute("id","product")
 
@@ -276,10 +420,67 @@
 
         let title = document.createElement("h2")
         title.innerText = el.tittle
+        title.setAttribute("id","title_cart")
 
         let price = document.createElement("h2")
-        price.innerText = `Price
-         ${el.price}`
+        price.innerText = " ₹ " + el.price
+
+
+      var select= document.createElement("select");
+      
+       var option1 = document.createElement("option");
+       option1.setAttribute("value",0);
+       option1.innerText="Qty:";
+
+
+       var option2 = document.createElement("option");
+       option2.setAttribute("value",1);
+       option2.innerText="Qty:"+1;
+      
+       select.style.width="60px";
+       select.style.marginLeft="30px";
+    
+       select.style.outline="none";
+       select.style.border="3px solid white";
+       
+       
+       var option3 = document.createElement("option");
+       option3.setAttribute("value",2);
+       option3.innerText="Qty:"+2;
+
+       var option4 = document.createElement("option");
+       option4.setAttribute("value",3);
+       option4.innerText="Qty:"+3;
+
+       var option5 = document.createElement("option");
+       option5.setAttribute("value",4);
+       option5.innerText="Qty:"+4;
+
+       select.append(option2,option3,option4);
+     
+       select.addEventListener("change",function(){
+           var selected = select.value;
+           price.innerHTML=" ₹ "+el.price*selected;
+           addToArray(el,index,selected);
+       })
+       function  addToArray(el,index,selected){
+           if(selected==="2"){
+              arrayOfCardToPay.splice(index,1,el.price*2);
+              
+           
+           }
+           if(selected==="1"){
+            arrayOfCardToPay.splice(index,1,el.price*1);
+           
+           }
+           if(selected==="3"){
+            arrayOfCardToPay.splice(index,1,el.price*3);
+         
+           }
+           
+          //  callToArray(arrayOfCardToPay);
+       }
+        
 
         let delet = document.createElement("button")
         delet.innerText = "Delete"
@@ -290,10 +491,15 @@
             delete_product(el,index)
         })
 
-        div.append(img,title,price,delet)
+        // let quanti
+
+        div.append(img,title,price,select,delet)
         cart_products.append(div)
 
     })
+
+
+    
 
  }
 
@@ -308,7 +514,95 @@
 
  })
 
+
+//  total_mrp
+// discount
+
+// total_amount
+
+
+//input_cart
+
+let total = 0;
+
+let discount  ;
+let final_total  ;
+
+let Total_mrp = document.querySelector("#total_mrp")
+let discount_mrp = document.querySelector("#discount")
+let final = document.querySelector("#total_amount")
+
+
+
+
+Total_mrp.innerText = total 
+
+
+document.querySelector("#Apply_coupan").addEventListener("click",coupanData)
+
+function coupanData(){
+
+ let applied_coupan = document.querySelector("#input_cart > input").value
+
+//  console.log(applied_coupan)
+
+   if(applied_coupan != "Masai50"){
+  alert("Coupan is Empty")
+}else if ( applied_coupan != "Masai50"){
+     alert("Not a Valid Coupan")
+   }
+   
+    if ( applied_coupan == "Masai50"){
+       
+     
+      final_total = (total / 100) * 60
+        discount = total - final_total
+        discount_mrp.innerText = ` - ${discount}`
+        final.innerText = final_total
+        alert("Coupon Applied Successfully")
+        
+    }
+ 
+
+}
+
+
+
+
+
+
+function amountSHow (){
+
+ 
+
+  arr.map((el)=>{
+
+
+    /// TOTAL MRP ////
+    let price_ = +el.price
+  console.log(price_)
+    total = total + price_
   
+    Total_mrp.innerText = total 
+    final.innerText = total
+
+  })
+
+
+}
+
+amountSHow()
+
+
+document.querySelector("#Place_order").addEventListener("click",Placeorder )
+
+function Placeorder(){
+
+ alert("Going To Checkout")
+   window.location.href = "payment.html"
+  localStorage.clear()
+
+}
 
 
 </script>

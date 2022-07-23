@@ -12,11 +12,16 @@
     <link rel="stylesheet" href="./styles/common.css" />
     <link rel="stylesheet" href="./styles/landingpage.css" />
     <style>
+
+      *{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
       body > h2 {
         font-size: 30px;
         text-align: center;
         color: #0160b4;
-        margin-top: 100px;
+        margin-top: 30px;
+     
       }
       #sidebar {
         margin-top: -210px;
@@ -52,6 +57,10 @@
       }
       #sidebar > div:hover {
         background-color: #0160b4;
+      }
+
+      footer{
+margin-top: 50px;
       }
     </style>
   </head>
@@ -223,9 +232,8 @@
       h.innerText = `Name-${elem.Name}`;
       let x = document.createElement("p");
       x.innerText = `Email-${elem.emaiL}`;
-      let p2 = document.createElement("p");
-      p2.innerText = `Password-${elem.Password}`;
-      box1.append(h, x, p2);
+   
+      box1.append(h, x);
       document.querySelector("#box").append(box1);
     });
   }
