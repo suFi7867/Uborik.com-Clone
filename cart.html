@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CART</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/common.css" />
+
+    <link rel="stylesheet" href="./styles/landingpage.css" />
+
+    <style>
+
+    #body{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       
+    }
+
+     #content{
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         text-align: center;
+     }
+
+     #product_container{
+        width: 100%;
+        border: 1px solid;
+        display: flex;
+     }
+
+     #product_cart{
+
+        display: grid;
+     
+        border: 1px solid none;
+        width: 50%;
+        justify-content: space-around;
+        border-radius: 10px;    
+        gap: 20px;    
+     }
+
+
+     #product_cart>div{
+        border: 1px solid none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(170, 172, 162, 0.205);
+
+     }
+
+     #product_cart>div>img{
+      
+        width: 200px;
+        height: 200px;
+
+     }
+
+     #product_cart>div>h2{
+      
+      margin: 0px 15px;
+
+   }
+
+
+
+
+     #checkout{
+        border: 1px solid;
+        width: 50%;
+     }
+
+     .delet_button{
+
+        padding: 5px 10px;
+        background-color: black;
+        color: white;
+        margin-right: 30px;
+        font-size: 18px;
+        
+        
+        
+     }
+
+
+
+
+     
+
+
+
+    </style>
+
+
+
+  </head>
+
+  <body>
+
+    
+    <div id="top_header"></div>
+
+
+    <div id="land-section">
+      <button id="land-button">
+        <a class="land-atr" href="landingpage.html">Home</a>
+      </button>
+      <div id="right">
+        <button id="land-button">
+          <a class="land-atr" href="./Product-DAY2/productpage.html"
+            >Categories</a
+          >
+        </button>
+        <div id="dropdown-container">
+          <div id="left">
+            <div class="sub-container">
+              <i class="fa fa-caret-right" id="carat"></i>
+              <a href="" id="a">Fashion</a>
+            </div>
+
+            <div id="right2">
+              <div class="sub-container">
+                <i class="fa fa-caret-right" id="carat1"></i>
+                <a href="" id="a">Kitchen</a>
+              </div>
+              <div id="drop-kitchen">
+                <img
+                  src="https://i.postimg.cc/XqQ7dmdT/Screenshot-475.png"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
+            </div>
+
+            <div id="right1">
+              <div class="sub-container">
+                <i class="fa fa-caret-right" id="carat2"></i>
+                <a href="" id="a">Accessories</a>
+              </div>
+              <div id="drop-accessories">
+                <img
+                  src="https://i.postimg.cc/j56z0qYP/Screenshot-476.png"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
+            </div>
+
+            <div id="right3">
+              <div class="sub-container">
+                <i class="fa fa-caret-right" id="carat3"></i>
+                <a href="" id="a">Health & Personal Care</a>
+              </div>
+              <div id="drop-health">
+                <img
+                  src="https://i.postimg.cc/sxmHydZH/Screenshot-478.png"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
+            </div>
+
+            <div id="right4">
+              <div class="sub-container">
+                <i class="fa fa-caret-right" id="carat4"></i>
+                <a href="" id="a">Electronics</a>
+              </div>
+              <div id="drop-electronic">
+                <img
+                  src="https://i.postimg.cc/gJPgZkVB/Screenshot-480.png"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
+            </div>
+
+            <div id="right5">
+              <div class="sub-container">
+                <i class="fa fa-caret-right" id="carat5"></i>
+                <a href="" id="a">Electric Appliances</a>
+              </div>
+              <div id="drop-electric">
+                <img
+                  src="https://i.postimg.cc/QxnSqqg7/Screenshot-481.png"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
+            </div>
+
+            <div class="sub-container">
+              <a href="" id="a">Paintings</a>
+            </div>
+            <div class="sub-container">
+              <a href="" id="a">Anti puncture Liquid</a>
+            </div>
+          </div>
+          <div id="sub-right">
+            <img
+              src="https://i.postimg.cc/C16ymVxg/Screenshot-474.png"
+              alt=""
+              id="drop-img"
+            />
+          </div>
+        </div>
+      </div>
+      <button id="land-button">
+        <a class="land-atr" href="customer.html"> Customer/Guest Login </a>
+      </button>
+      <button id="land-button">
+        <a class="land-atr" href="merchant.html"> Merchant/Bulk Order </a>
+      </button>
+      <button id="land-button" >
+        <a  class="land-atr" href="seller.html"
+          >Become A Seller</a
+        >
+      </button>
+      <button id="land-button">
+        <a class="land-atr" href="login.html"> Login/Signup</a>
+      </button>
+    </div>
+
+
+       
+<div id="product_container">
+
+    
+    <div id="product_cart">
+        
+        
+        
+        
+    </div>
+    
+    
+    <div id="checkout">
+        
+    </div>
+    
+</div>
+        
+   
+
+    <footer id="footer">
+
+    </footer>
+
+
+  </body>
+</html>
+
+<script src="./scripts/cart.js" type="module"></script>
+
+
+<script>
+
+
+ let arr = JSON.parse(localStorage.getItem("carttt")) 
+
+ let displayData = ()=> {
+
+    let cart_products = document.querySelector("#product_cart")
+    cart_products.innerHTML = ""
+
+    arr.map((el,index) =>{
+
+        let div = document.createElement("div")
+        div.setAttribute("id","product")
+
+        let img = document.createElement("img")
+        img.src = el.src
+
+        let title = document.createElement("h2")
+        title.innerText = el.tittle
+
+        let price = document.createElement("h2")
+        price.innerText = `Price
+         ${el.price}`
+
+        let delet = document.createElement("button")
+        delet.innerText = "Delete"
+        delet.setAttribute("class","delet_button")
+        delet.style.cursor = "pointer"
+        delet.addEventListener("click", function(){
+
+            delete_product(el,index)
+        })
+
+        div.append(img,title,price,delet)
+        cart_products.append(div)
+
+    })
+
+ }
+
+ displayData()
+
+
+ let delete_product = ((el,index) =>{
+ 
+    arr.splice(index,1)
+    localStorage.setItem("carttt",JSON.stringify(arr))
+    window.location.reload()
+
+ })
+
+  
+
+
+</script>

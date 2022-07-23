@@ -26,7 +26,7 @@
 
         <a href=""><img src="https://i.im.ge/2022/07/20/F15I8L.png" alt="F15I8L.png" border="0"></a>
 
-        <a href=""><img src="https://i.im.ge/2022/07/20/F159dy.png" alt="F159dy.png" border="0"></a>
+        <a href="/cart.html"> <img src="https://i.im.ge/2022/07/20/F159dy.png" alt="F159dy.png" border="0"></a>
 
         <p id="cart_count">0</p>
 
