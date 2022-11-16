@@ -78,7 +78,7 @@ Bewakoof.com Clone is ReactJS e-commerce web application that allows you to buy 
 
 <br />
 
-## Glimpses of Be-Clone 🙈 :
+## Glimpses of Bewakoof-Clone 🙈 :
 
 
 
