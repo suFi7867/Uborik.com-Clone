@@ -56,9 +56,7 @@ It's group project - Uborik.com is an online shopping site for men and women clo
 - Product Listing Page with all categories
 - Product Description Page
 - Cart Management Page
-- Checkout with Address Management Page
 - Login / Logout Page
-- Order Summary Page
 - Single Product Page
 
 
@@ -69,44 +67,34 @@ It's group project - Uborik.com is an online shopping site for men and women clo
 - Login and Signup User Account
 - Product Sorting Based on Price, Rating and Name
 - My Orders Section for details of all ordered item
-- Wishlist Add and Remove Items
 - Cart Add and Remove Items 
 - Cart Update Quantities 
-- Address Management
-- Order Summary
+
+
 
 <br />
 
-## Glimpses of Bewakoof-Clone 🙈 :
+## Glimpses of Uborik-Clone 🙈 :
 
 
 
 
 <table>
   <tr>
-    <td><img src="https://i.ibb.co/FDBxbh3/Capture1.png"  alt="home" /></td>
-    <td><img src="https://i.ibb.co/HPWYSFD/Capture2.png"  alt="coupons" /></td>
+     <td><img src="https://i.ibb.co/mNFSbRQ/1-1.png" height="300px" alt="allProducts" /></td>
+    <td><img src="https://i.ibb.co/hXGkV6Q/1-2.png"  alt="home" /></td>
+  
   </tr>
   <tr>
-   <td><img src="https://i.ibb.co/hYxHq1X/Capture3.png"  alt="allProducts" /></td>
-    <td><img src="https://i.ibb.co/PwN1BXc/Capture4.png"  alt="men" /></td>
+    <td><img src="https://i.ibb.co/5BJ4s0Y/1-3.png"  alt="coupons" /></td>
+   <td><img src="https://i.ibb.co/BCdygMB/1-4.png"  alt="allProducts" /></td>
+  
   </tr>
-  <tr>
-    <td><img src="https://i.ibb.co/DgKv24V/Capture11.png" height="300px" alt="allProducts" /></td>
-    <td><img src="https://i.ibb.co/Cz01hGD/Capture12.png"  alt="men" /></td>
+  <tr>  <td><img src="https://i.ibb.co/6Bvbgj3/1-5.png"  alt="men" /></td>
+ 
+   
   </tr>
-  <tr>
-    <td><img src="https://i.ibb.co/m8MMQXp/Capture5.png"  alt="women" /></td>
-    <td><img src="https://i.ibb.co/dt1VbjM/Capture6.png"  alt="kids" /></td>
-  </tr>
-   <tr>
-    <td><img src="https://i.ibb.co/7Nvrd2x/Capture9.png"   alt="women" /></td>
-    <td><img src="https://i.ibb.co/TmCf3fr/Capture10.png"   alt="kids" /></td>
-  </tr>
-  <tr>
-    <td><img src="https://i.ibb.co/ypKg5zz/Capture7.png"  alt="description" /></td>
-    <td><img src="https://i.ibb.co/PWsJSyG/Capture8.png"  alt="descriptionDark" /></td>
-  </tr>
+ 
 
 </table>
 
@@ -116,11 +104,8 @@ It's group project - Uborik.com is an online shopping site for men and women clo
 
 ## Getting Started
 
-This project was built using React, Chakra UI, HTML, CSS, JavaScript, Rest API . It is an e-commerce web application and for running on your local environment you should follow these guidelines.
+This project was built using  HTML, CSS, JavaScript . It is an e-commerce web application and for running on your local environment you should follow these guidelines.
 
-
-# PROJECT VERCEL LINK
-https://bewakoof-clone-sufi.vercel.app/
 
 # Getting Started with Create React App
 
